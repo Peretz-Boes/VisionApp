@@ -77,6 +77,10 @@
                                             <action selector="flashButtonWasPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="IG7-nK-9RJ"/>
                                         </connections>
                                     </button>
+                                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" style="gray" translatesAutoresizingMaskIntoConstraints="NO" id="cx9-9S-zxd">
+                                        <rect key="frame" x="299" y="573" width="20" height="20"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                    </activityIndicatorView>
                                 </subviews>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <constraints>
@@ -106,6 +110,7 @@
                         <outlet property="flashButton" destination="MJt-WS-3Oy" id="nJr-5b-adN"/>
                         <outlet property="identificationLabel" destination="UlC-er-t5Y" id="wDn-Ir-BUK"/>
                         <outlet property="roundedLabelView" destination="Yca-AC-1Be" id="O1D-YG-0nv"/>
+                        <outlet property="spinner" destination="cx9-9S-zxd" id="7Ca-Q3-myM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
